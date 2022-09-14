@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+/* CSS Principal */
+
+body {
+  justify-content: center;
+  display: flex;
+}
+
+.container-principal {
+  width: 940px;
+  justify-content: center;
+  background-color: #eee;
+  border: solid 2px #333;
+}
+
+.box-titulo {
+  width: 100%;
+  background-color: #333;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-family: "Black Ops One", cursive;
+}
+
+.box-ficha-tecnica {
+  display: flex;
+  padding: 10px;
+}
+
+.box-poster {
+  width: 50%;
+
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.poster {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.box-sinopse {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.box-hashtag {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.hashtag {
+  background-color: rgb(189, 17, 17);
+  color: white;
+  padding: 8px;
+  margin: 5px;
+  align-self: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 10px;
+  text-transform: uppercase;
+  box-shadow: 3px 3px #00000025;
+}
+
+h4 {
+  font-size: 1.4em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.texto-justificado {
+  text-align: justify;
+  margin: 10px 0px 10px 0px;
+}
+
+.card-ator {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px #00000025;
+}
+
+.box-foto-ator {
+  width: 10%;
+  align-items: center;
+  display: flex;
+}
+
+.foto-ator {
+  width: 100%;
+  height: fit-content;
+}
+
+.info-ator {
+  width: 40%;
+  align-self: center;
+  text-align: center;
+}
+
+.box-trailer {
+  width: 100%;
+  justify-content: center;
+  display: block;
+  background-color: #aaa;
+  padding: 10px;
+}
+
+.titulo-trailer {
+  width: auto;
+  text-align: center;
+
+  font-size: 2em;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.box-video {
+  margin: 10px;
+  width: auto;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+}
+
+.video {
+  border-top: solid 20px #000;
+  border-bottom: solid 20px #000;
+}
