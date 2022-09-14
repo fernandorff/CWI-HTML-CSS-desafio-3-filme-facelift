@@ -46,12 +46,9 @@ body {
 .poster {
   width: 100%;
   height: fit-content;
-  box-sizing: border-box;
-}
-
+  
 .box-sinopse {
   width: 50%;
-  box-sizing: border-box;
   padding: 10px;
 }
 
@@ -86,7 +83,6 @@ h4 {
 }
 
 .card-ator {
-  box-sizing: border-box;
   display: flex;
   background-color: #ddd;
   padding: 10px;
