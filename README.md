@@ -1,3 +1,6 @@
+#### Preview: https://fernandorff.github.io/CWI-HTML-CSS-desafio-3-filme-facelift/
+---
+
 ### 🎬 Exercício Filme Facelift 💅
 
 **Até o momento tem sido uma briga pra alinhar as coisas nos exercícios que fizemos, não é mesmo.**
